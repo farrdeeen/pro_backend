@@ -1,0 +1,10 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+
+# OS stuff
+.DS_Store
