@@ -1,10 +1,10 @@
 fastapi
 uvicorn[standard]
-motor
-beanie
-python-jose
+motor>=3.3.1
+pymongo>=4.0.0
+beanie>=1.23.2
+python-jose[cryptography]
 passlib[bcrypt]
 python-dotenv
 email-validator
 bcrypt<4.0
-python-jose[cryptography]
